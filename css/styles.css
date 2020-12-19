@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Balsamiq Sans";
+    src: url("font/BalsamiqSans-Regular.ttf");
+}
+
+body {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.navbar-header {
+    background-color: gray;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5em;
+    vertical-align: middle;
+    text-decoration: none;
+    color: inherit;
+}
+
+article {
+    background-color: gray;
+    border: none;
+}
+
+.menuitem>p {
+    margin-bottom: -1px;
+    background-color: gray;
+    border: none;
+}

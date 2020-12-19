@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "./css"
+		}
+	],
+	"settings": {
+		"css.styleSheets": [
+		
+		],
+		"liveServer.settings.multiRootWorkspaceName": "module3-solution"
+	}
+}
