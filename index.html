@@ -11,63 +11,68 @@
 
 <body>
     <header>
-        <nav class="navbar">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Food, LLC</a>
-                <button data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <p class="navbar-brand">Food, LLC</p>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul>
+                        <li> <a href="#menuitem-1">Chicken</a></li>
+                        <li> <a href="#menuitem-2">Beef</a></li>
+                        <li> <a href="#menuitem-3">Sushi</a></li>
+                    </ul>
+                </div>
             </div>
-
         </nav>
     </header>
 
-    <div id="collapsable-nav" class="collapse">
-        <ul>
-            <li> <a href="#menuitem-1">Chicken</a></li>
-            <li> <a href="#menuitem-2">Beef</a></li>
-            <li> <a href="#menuitem-3">Sushi</a></li>
-        </ul>
+    <div>
+        <h1 class="main_menu_title text-center">Our Menu</h1>
     </div>
 
-    <div class="container-fluid">
-        <h1 class="main_menu_title text-center">Our Menu</h1>
-        <div>
-            <div class="menuitem" id="menuitem-1">
-                <p id="item1" class="text-center">Chicken</p>
-                <article id="item1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac diam sed libero hendrerit ornare in ornare mauris. Aenean quis auctor augue, eget mattis ipsum. Ut nunc enim, viverra at magna eget, rhoncus cursus mauris. In volutpat
-                    tortor sit amet mauris condimentum, non feugiat quam rhoncus. Donec enim ex, faucibus in pretium nec, blandit sed lacus.Maecenas vel ex gravida, tristique elit quis, pellentesque justo. Vivamus enim elit, elementum nec lobortis et,
-                    venenatis a diam. Suspendisse iaculis vehicula libero eget iaculis. Ut in lectus non tortor feugiat pulvinar. Ut vel pulvinar quam, id consectetur mi. Quisque vitae nibh nisl. Duis congue eget magna sed semper.Lorem ipsum dolor sit
-                    amet, consectetur adipiscing elit. Mauris ac diam sed libero hendrerit ornare in ornare mauris. Aenean quis auctor augue, eget mattis ipsum. Ut nunc enim, viverra at magna eget, rhoncus cursus mauris. In volutpat tortor sit amet mauris
-                    condimentum, non feugiat quam rhoncus.Maecenas vel ex gravida, tristique elit quis, pellentesque justo. Vivamus enim elit, elementum nec lobortis et, venenatis a diam.
-                </article>
-            </div>
+    <div>
+        <div class="menuitem" id="menuitem-1">
+            <p id="item1" class="text-center">Chicken</p>
+            <article id="item1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac diam sed libero hendrerit ornare in ornare mauris. Aenean quis auctor augue, eget mattis ipsum. Ut nunc enim, viverra at magna eget, rhoncus cursus mauris. In volutpat tortor
+                sit amet mauris condimentum, non feugiat quam rhoncus. Donec enim ex, faucibus in pretium nec, blandit sed lacus.Maecenas vel ex gravida, tristique elit quis, pellentesque justo. Vivamus enim elit, elementum nec lobortis et, venenatis
+                a diam. Suspendisse iaculis vehicula libero eget iaculis. Ut in lectus non tortor feugiat pulvinar. Ut vel pulvinar quam, id consectetur mi. Quisque vitae nibh nisl. Duis congue eget magna sed semper.Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Mauris ac diam sed libero hendrerit ornare in ornare mauris. Aenean quis auctor augue, eget mattis ipsum. Ut nunc enim, viverra at magna eget, rhoncus cursus mauris. In volutpat tortor sit amet mauris condimentum, non
+                feugiat quam rhoncus.Maecenas vel ex gravida, tristique elit quis, pellentesque justo. Vivamus enim elit, elementum nec lobortis et, venenatis a diam.
+            </article>
         </div>
-        <div>
-            <div class="menuitem" id="menuitem-2">
-                <p id="item2" class="text-center">Beef</p>
-                <article>Maecenas vel ex gravida, tristique elit quis, pellentesque justo. Vivamus enim elit, elementum nec lobortis et, venenatis a diam. Suspendisse iaculis vehicula libero eget iaculis. Ut in lectus non tortor feugiat pulvinar. Ut vel pulvinar
-                    quam, id consectetur mi. Quisque vitae nibh nisl. Duis congue eget magna sed semper.Vivamus semper, orci vel egestas malesuada, metus nulla tincidunt ipsum, et sollicitudin ligula diam lobortis nisi. Cras tincidunt molestie libero,
-                    id porttitor libero ultricies viverra. Vivamus eu ultricies nulla. Aenean faucibus magna ac odio faucibus auctor. Maecenas ut molestie nibh, sit amet dictum tellus. Aliquam tristique ut ex non commodo.Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Mauris ac diam sed libero hendrerit ornare in ornare mauris. Aenean quis auctor augue, eget mattis ipsum. Ut nunc enim, viverra at magna eget, rhoncus cursus mauris. In volutpat tortor sit amet mauris condimentum,
-                    non feugiat quam rhoncus.Vivamus semper, orci vel egestas malesuada, metus nulla tincidunt ipsum, et sollicitudin ligula diam lobortis nisi. Cras tincidunt molestie libero, id porttitor libero ultricies viverra. Vivamus eu ultricies
-                    nulla. Aenean faucibus magna ac odio faucibus auctor. Maecenas ut molestie nibh, sit amet dictum tellus. Aliquam tristique ut ex non commodo.
-                </article>
-            </div>
+    </div>
+
+    <div>
+        <div class="menuitem" id="menuitem-2">
+            <p id="item2" class="text-center">Beef</p>
+            <article>Maecenas vel ex gravida, tristique elit quis, pellentesque justo. Vivamus enim elit, elementum nec lobortis et, venenatis a diam. Suspendisse iaculis vehicula libero eget iaculis. Ut in lectus non tortor feugiat pulvinar. Ut vel pulvinar quam,
+                id consectetur mi. Quisque vitae nibh nisl. Duis congue eget magna sed semper.Vivamus semper, orci vel egestas malesuada, metus nulla tincidunt ipsum, et sollicitudin ligula diam lobortis nisi. Cras tincidunt molestie libero, id porttitor
+                libero ultricies viverra. Vivamus eu ultricies nulla. Aenean faucibus magna ac odio faucibus auctor. Maecenas ut molestie nibh, sit amet dictum tellus. Aliquam tristique ut ex non commodo.Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Mauris ac diam sed libero hendrerit ornare in ornare mauris. Aenean quis auctor augue, eget mattis ipsum. Ut nunc enim, viverra at magna eget, rhoncus cursus mauris. In volutpat tortor sit amet mauris condimentum, non feugiat quam
+                rhoncus.Vivamus semper, orci vel egestas malesuada, metus nulla tincidunt ipsum, et sollicitudin ligula diam lobortis nisi. Cras tincidunt molestie libero, id porttitor libero ultricies viverra. Vivamus eu ultricies nulla. Aenean faucibus
+                magna ac odio faucibus auctor. Maecenas ut molestie nibh, sit amet dictum tellus. Aliquam tristique ut ex non commodo.
+            </article>
         </div>
-        <div>
-            <div class="menuitem" id="menuitem-3">
-                <p id="item3" class="text-center">Sushi</p>
-                <article>Vivamus semper, orci vel egestas malesuada, metus nulla tincidunt ipsum, et sollicitudin ligula diam lobortis nisi. Cras tincidunt molestie libero, id porttitor libero ultricies viverra. Vivamus eu ultricies nulla. Aenean faucibus magna
-                    ac odio faucibus auctor. Maecenas ut molestie nibh, sit amet dictum tellus. Aliquam tristique ut ex non commodo. Praesent varius in quam ut laoreet.Maecenas vel ex gravida, tristique elit quis, pellentesque justo. Vivamus enim elit,
-                    elementum nec lobortis et, venenatis a diam. Suspendisse iaculis vehicula libero eget iaculis. Ut in lectus non tortor feugiat pulvinar. Ut vel pulvinar quam, id consectetur mi. Quisque vitae nibh nisl. Duis congue eget magna sed semper.Lorem
-                    ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac diam sed libero hendrerit ornare in ornare mauris. Aenean quis auctor augue, eget mattis ipsum. Ut nunc enim, viverra at magna eget, rhoncus cursus mauris. In volutpat tortor
-                    sit amet mauris condimentum, non feugiat quam rhoncus.Maecenas vel ex gravida, tristique elit quis, pellentesque justo. Vivamus enim elit, elementum nec lobortis et, venenatis a diam.
-                </article>
-            </div>
+    </div>
+
+    <div>
+        <div class="menuitem" id="menuitem-3">
+            <p id="item3" class="text-center">Sushi</p>
+            <article>Vivamus semper, orci vel egestas malesuada, metus nulla tincidunt ipsum, et sollicitudin ligula diam lobortis nisi. Cras tincidunt molestie libero, id porttitor libero ultricies viverra. Vivamus eu ultricies nulla. Aenean faucibus magna ac
+                odio faucibus auctor. Maecenas ut molestie nibh, sit amet dictum tellus. Aliquam tristique ut ex non commodo. Praesent varius in quam ut laoreet.Maecenas vel ex gravida, tristique elit quis, pellentesque justo. Vivamus enim elit, elementum
+                nec lobortis et, venenatis a diam. Suspendisse iaculis vehicula libero eget iaculis. Ut in lectus non tortor feugiat pulvinar. Ut vel pulvinar quam, id consectetur mi. Quisque vitae nibh nisl. Duis congue eget magna sed semper.Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Mauris ac diam sed libero hendrerit ornare in ornare mauris. Aenean quis auctor augue, eget mattis ipsum. Ut nunc enim, viverra at magna eget, rhoncus cursus mauris. In volutpat tortor sit amet
+                mauris condimentum, non feugiat quam rhoncus.Maecenas vel ex gravida, tristique elit quis, pellentesque justo. Vivamus enim elit, elementum nec lobortis et, venenatis a diam.
+            </article>
         </div>
+    </div>
     </div>
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
