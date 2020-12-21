@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Balsamiq Sans', cursive;
+    color: black;
 }
 
 .icon-bar {
@@ -21,12 +22,43 @@ body {
     vertical-align: middle;
     text-decoration: none;
     color: inherit;
-    padding: 10% 0;
+    float: left;
+}
+
+.navbar-collapse {
+    padding-right: 0%;
+    padding-left: 0%;
+}
+
+ul {
+    margin-bottom: 0%;
 }
 
 article {
     background-color: gray;
     border: none;
+}
+
+.menuitem {
+    margin-top: 1em;
+}
+
+.smartphone-view-list {
+    padding: 0%;
+    width: 100%;
+}
+
+.smartphone-view-list>li {
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    border-bottom: black solid 1px;
+}
+
+.smartphone-view-list>li>a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
 }
 
 .menuitem>p {
