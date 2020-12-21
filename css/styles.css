@@ -8,12 +8,39 @@ body {
     color: black;
 }
 
-.icon-bar {
-    border: 1px solid #61122f;
+#header-nav {
+    border: 0;
+    border-radius: 0;
+    background-color: gray;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+button.navbar-toggle.collapse {
+    border: 1px solid whitesmoke;
+}
+
+.container {
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 
 .navbar-header {
     width: 100%;
+    background-color: gray;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+}
+
+#company-name {
+    color: black;
+    margin-left: 0%;
+    font-size: 2em;
 }
 
 .navbar-brand {
@@ -53,6 +80,7 @@ article {
     text-align: center;
     width: 100%;
     border-bottom: black solid 1px;
+    background-color: white;
 }
 
 .smartphone-view-list>li>a {
