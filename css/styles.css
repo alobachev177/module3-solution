@@ -77,7 +77,6 @@ article {
 
 .smartphone-view-list>li {
     list-style-type: none;
-    text-align: center;
     width: 100%;
     border-bottom: black solid 1px;
     background-color: white;
@@ -85,7 +84,6 @@ article {
 
 .smartphone-view-list>li>a {
     text-decoration: none;
-    text-align: center;
     color: black;
 }
 
